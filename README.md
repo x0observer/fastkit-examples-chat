@@ -83,5 +83,9 @@ class AuthRouter(BaseRouter[User, UserCreate, UserRead]):
             service = self.service_cls(db_session)
             return service.verify_token(token)
 ```
+### 3. CRUD и сложная фильтрация из коробки, возможность легковесной загрузки сервисов через Serverless/Provide
+<img width="1386" alt="image" src="https://github.com/user-attachments/assets/b8670f65-8fd2-4cda-937f-c5dd6b59d2e8" />
+
+### Cпасибо за ваше внимание к данному решению!
 
 
